@@ -1,0 +1,86 @@
+.topBar{
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+height: 80px;
+background: #FFFFFF;
+border-bottom: 1px solid #E7E9F1;
+}
+.titleBox{
+  padding: 0px 24px;
+  background: #FFFFFF;
+}
+.title{
+width: 248px;
+font-family: 'Commissioner';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+}
+.titleNavigation{
+  display: flex;
+}
+.p{
+padding: 0px 5px;
+height: 20px;
+font-family: 'Commissioner';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #65676D;
+display: flex;
+align-items: flex-end;
+}
+.messages{
+  background-color:red;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  color: white;
+font-family: 'Commissioner';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+position: relative;
+top: -28px;
+left: 10px;
+}
+.icons{
+  width: 20px;
+height: 20px;
+}
+.titleNavigationRight{
+  width:300px;
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.plus{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+width: 20px;
+height: 20px;
+background: #F5F7FA;
+color:#84868C;
+border-radius: 1000px;
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+}
+.messagesBox{
+  width:55px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left:20px;
+  border-left:  1px solid #E7E9F1;
+  border-right:  1px solid #E7E9F1;
+}
