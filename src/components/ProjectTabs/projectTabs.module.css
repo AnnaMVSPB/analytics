@@ -1,0 +1,24 @@
+.select{
+  border:none;
+  background-color: #FFFFFF;
+  color:#3872F9;
+}
+.button{
+  background-color: #FFFFFF;
+  border:none;
+  color:#65676D;
+  font-family: 'Commissioner';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+}
+.tabs{
+  display: flex;
+}
+.tabsBox{
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
